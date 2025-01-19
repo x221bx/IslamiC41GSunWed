@@ -6,7 +6,9 @@ plugins {
 android {
     namespace = "com.route.islamiappc41gsunwed"
     compileSdk = 35
-
+    buildFeatures {
+        viewBinding = true
+    }
     defaultConfig {
         applicationId = "com.route.islamiappc41gsunwed"
         minSdk = 23
